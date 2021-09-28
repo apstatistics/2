@@ -230,3 +230,6 @@
     height: 5vw;
     font-size: 2vw;
 }
+.descripcion p {
+    font-size: 2vw;
+}
