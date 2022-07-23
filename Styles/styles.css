@@ -1,0 +1,554 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.backgraund1 img {
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
+.container .logo1 a img{
+    position: absolute;
+    top: 0.6%;
+    z-index: 80;
+    width: 15%;
+    left: 1.5%;
+}
+.reff {
+    margin: 3vw 1%;
+}
+
+.reffe ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin: 2% 3%;
+}
+
+.reffe ul li {
+    list-style: none;
+    margin: 2vw 1vw;
+}
+
+.reffe a {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 1.7vw;
+}
+
+.reffe p {
+    color: black;
+    text-align: center;
+    font-size: 1.7vw;
+}
+
+.reffe img {
+    position: relative;
+    left: 45%;
+    width: 10%;
+}
+.navegacion {
+    position: absolute;
+    top: 2%;
+}
+.nav {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 0vw 20vw;
+    position: absolute;
+    z-index: 100;
+    left: 13vw;
+}
+.nav li a {
+    text-decoration: none;
+    color: black;
+    font-size: 2.3vw;
+    text-align: center;
+    margin: 0 4.5vw;
+    font-weight: 900;
+    position: relative;
+    
+}
+.nav-menu {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 0vw 20vw;
+    position: absolute;
+    top: 2vw;
+    z-index: 100;
+    left: 13vw;
+}
+.nav-menu li a {
+    text-decoration: none;
+    color: black;
+    font-size: 2.3vw;
+    text-align: center;
+    margin: 0 4.5vw;
+    font-weight: 900;
+}
+.presentacion img {
+    position: absolute;
+    z-index: 5;
+    top: 6vw;
+    left: 5vw;
+    width: 90%;
+}
+.presentacion .boton a {
+    text-align: center;
+    z-index: 10;
+    position: absolute;
+    top: 55vw;
+    left: 23vw;
+    text-decoration: none;
+    color: white;
+    font-size: 2.5vw;
+    background-image: linear-gradient(to right, rgb(198, 222, 255), rgb(96, 96, 255));
+    padding: 0.5vw 1vw;
+    width: 16vw;
+    height: 4vw;
+    border-radius: 10vw;
+}
+.titulo h2 {
+    position: absolute;
+    top: 9.5vw;
+    left: 40vw;
+    font-size: 4vw;
+    z-index: 30;
+}
+.opacitys img {
+    position: absolute;
+    top: 7vw;
+    z-index: 10;
+    margin: 0vw 1.5vw;
+    width: 97%;
+    height: 150vw;
+    border: solid 0.1vw black;
+    border-radius: 6vw;
+}
+.backgraund_principal img {
+    position: absolute;
+    top: 7vw;
+    z-index: 11;
+    margin: 0vw 1.5vw;
+    width: 97%;
+    height: 22vw;
+    border-radius: 6vw;
+}
+.separacion img {
+    position: absolute;
+    top: 24vw;
+    z-index: 11;
+    margin: 0vw 1.5vw;
+    width: 97%;
+    height: 6vw;
+    border: solid 0.1vw black;
+}
+.logo_de_la_serie img {
+    position: absolute;
+    top: 19vw;
+    left: 5vw;
+    z-index: 11;
+    width: 16vw;
+    border: solid 1vw rgb(255, 255, 255);
+    border-radius: 4vw;
+}
+.links_de_la_serie .YTlink img {
+    position: absolute;
+    top: 20vw;
+    z-index: 11;
+    width: 5vw;
+    right: 15vw;
+    border-radius: 0.5vw;
+}
+.links_de_la_serie .TWlink img {
+    position: absolute;
+    top: 20vw;
+    z-index: 11;
+    width: 5vw;
+    right: 9vw;
+    border-radius: 0.5vw;
+}
+.links_de_la_serie .FBlink img {
+    position: absolute;
+    top: 20vw;
+    z-index: 11;
+    width: 5vw;
+    right: 3vw;
+    border-radius: 0.5vw;
+}
+.Text {
+    position: absolute;
+    top: 9vw;
+    z-index: 13;
+    margin: 0 34%;
+}
+.principaltext h2 {
+    font-size: 3.5vw;
+}
+.enlaces {
+    position: absolute;
+    top: 8vw;
+    margin: 0 0;
+    left: -25vw;
+}
+.enlaces h3 {
+    font-size: 2.5vw;
+    color: black;
+    margin: 1.5vw;
+}
+.enlaces a {
+    text-decoration: none;
+}
+.enlaces2 {
+    position: absolute;
+    top: 8vw;
+    margin: 0 0;
+    right: -27vw;
+}
+.enlaces2 h3 {
+    font-size: 2.5vw;
+    color: black;
+    margin: 1.5vw;
+}
+.enlaces2 a {
+    text-decoration: none;
+}
+.paginas {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 40vw;
+    position: relative;
+    left: 1.5vw;
+}
+.paginas a {
+    width: 3.7vw;
+    border: solid 0.1vw blue;
+    color: black;
+    border-radius: 3vw;
+    font-size: 3vw;
+    padding: 0.5vw 1vw;
+    text-decoration: none;
+    background-image: linear-gradient(to right, rgb(198, 222, 255), rgb(96, 96, 255));
+}
+.Nombre_y_Fecha h2 {
+    position: absolute;
+    top: 25vw;
+    left: 23vw;
+    z-index: 11;
+    font-size: 3.1vw;
+}
+.Nombre_y_Fecha h3 {
+    position: absolute;
+    top: 25vw;
+    right: 3vw;
+    z-index: 11;
+    font-size: 2.3vw;
+}
+.Epi h2 {
+    font-size: 3vw;
+    position: absolute;
+    top: 37vw;
+    left: 5vw;
+    z-index: 12;
+}
+.Epi h3 {
+    font-size: 3vw;
+    position: absolute;
+    top: 41vw;
+    left: 5vw;
+    z-index: 12;
+    color: blue;
+}
+.Rep h2 {
+    font-size: 2.5vw;
+    position: absolute;
+    top: 37.3vw;
+    left: 20.7vw;
+    z-index: 12;
+}
+.Rep h3 {
+    font-size: 3vw;
+    position: absolute;
+    top: 41vw;
+    left: 20.7vw;
+    z-index: 12;
+    color: blue;
+}
+.Pais h2 {
+    font-size: 2.5vw;
+    position: absolute;
+    top: 37.5vw;
+    left: 39.5vw;
+    z-index: 12;
+}
+.Pais h3 {
+    font-size: 3vw;
+    position: absolute;
+    top: 41vw;
+    left: 39.5vw;
+    z-index: 12;
+    color: blue;
+}
+.Emi h2 {
+    font-size: 2.5vw;
+    position: absolute;
+    top: 37.5vw;
+    left: 58vw;
+    z-index: 12;
+}
+.Emi h3 {
+    font-size: 2.4vw;
+    position: absolute;
+    top: 41.5vw;
+    left: 58vw;
+    z-index: 12;
+    color: blue;
+}
+.Cate h2 {
+    font-size: 3vw;
+    position: absolute;
+    top: 37vw;
+    left: 80vw;
+    z-index: 12;
+}
+.Cate h3 {
+    font-size: 2.5vw;
+    position: absolute;
+    top: 41.5vw;
+    left: 80vw;
+    z-index: 12;
+    color: blue;
+}
+.Clasi h2 {
+    font-size: 3vw;
+    position: absolute;
+    top: 48vw;
+    left: 5vw;
+    z-index: 12;
+}
+.Clasi img {
+    position: absolute;
+    top: 51.1vw;
+    left: 5vw;
+    width: 16.5vw;
+    height: 10vw;
+    z-index: 12;
+}
+.Rank {
+    position: absolute;
+    top: 48vw;
+    left: 23.5vw;
+    z-index: 12;
+}
+.Rank h3 {
+    position: relative;
+    top: 1.5vw;
+    font-size: 3vw;
+    color: blue;
+}
+.Rank h2 {
+    font-size: 3.1vw;
+}
+.Fandom {
+    position: absolute;
+    top: 48vw;
+    left: 47.5vw;
+    z-index: 12;
+}
+.Fandom h3 {
+    position: relative;
+    top: 1.5vw;
+    font-size: 3vw;
+    color: blue;
+}
+.Fandom h2 {
+    font-size: 3.1vw;
+}
+.Fandom a {
+    position: absolute;
+    top: 8.5vw;
+    left: 9vw;
+    font-size: 3vw;
+    color: blue;
+    text-decoration: none;
+    border: solid 0.3vw blue;
+    border-radius: 1vw;
+}
+.Critic {
+    position: absolute;
+    top: 48vw;
+    left: 65vw;
+    z-index: 12;
+}
+.Critic h3 {
+    position: relative;
+    top: 1.5vw;
+    right: -4vw;
+    font-size: 3vw;
+    color: blue;
+}
+.Critic h2 {
+    font-size: 3.1vw;
+}
+.Critic img {
+    position: absolute;
+    width: 5vw;
+    height: 5vw;
+    top: 8vw;
+    left: 14vw;
+    border: solid 0.3vw blue;
+    border-radius: 1vw;
+}
+.Warning {
+    position: absolute;
+    top: 66vw;
+    border: solid 0.3vw blue;
+    border-radius: 1vw;
+    height: 18vw;
+    width: 59vw;
+    z-index: 13;
+    margin: 0 20%;
+}
+.Warning h2 {
+    font-size: 3vw;
+}
+.Warning h3 {
+    font-size: 2.4vw;
+}
+.menu-btn {
+    position: absolute;
+    cursor: pointer;
+    top: 15px;
+    right: 30px;
+    z-index: 2;
+    display: none;
+
+}
+.Votar iframe {
+    position: absolute;
+    top: 35vw;
+    width: 95%;
+    margin: 0 2.5%;
+    z-index: 12;
+    height: 170%;
+}
+.grafic-backgraund img {
+    width: 95%;
+    height: 60vw;
+    position: absolute;
+    top: 90vw;
+    left: 2.5%;
+    z-index: 14;
+    border: solid 0.3vw black;
+    border-radius: 4.2vw;
+}
+.Grafic-buton {
+    position: absolute;
+    top: 93vw;
+    left: -2.5vw;
+    z-index: 14;
+}
+.Grafic-buton a {
+    font-size: 3vw;
+    text-decoration: none;
+    background-color: blue;
+    padding: 1vw;
+    color: white;border: solid 0.3vw black;
+}
+.grafic-iframer {
+    position: absolute;
+    color: white;border: solid 0.3vw black;
+}
+.boton-1 {
+    position: relative;
+    left: 15vw;
+    list-style: none;
+}
+.boton-2 {
+    position: absolute;
+    left: 64vw;
+    width: 30vw;
+    list-style: none;
+    top: 0vw;
+}
+.grafic-iframer iframe {
+    position: absolute;
+    z-index: 15;
+    top: -62vw;
+    margin: 0 3vw;
+    width: 91.2vw;
+    height: 45vw;
+}
+.Registro_Semanal {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.Registro_Semanal h2 {
+    font-size: 3.2vw;
+}
+.Registro_Semanal h3 {
+    font-size: 2.5vw;
+}
+.Semana-Register {
+    border: solid 0.3vw black;
+}
+.Semana-Register h3 {
+    border: solid 0.3vw black;
+}
+.Reproducciones {
+    border: solid 0.3vw black;
+}
+.Reproducciones h3 {
+    border: solid 0.3vw black;
+}
+.Vistas {
+    border: solid 0.3vw black;
+}
+.Vistas h3 {
+    border: solid 0.3vw black;
+}
+@media (max-width: 400px) {
+    .nav-brand {
+        width: 150px;
+        height: 50px;
+    }
+    .nav-main ul.nav-menu {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: #4071b4;
+        height: 100%;
+        transform: translateX(-80vw);
+        transition: transform .5s ease-in-out;
+        padding: 30px;
+        opacity: .9;
+        z-index: 100;
+    }
+    .nav-main ul.nav-menu li a {
+        color: white;
+        font-size: 4vw;
+    }
+
+    .nav-main ul.nav-menu.show {
+        transform: translateX(-25vw);
+    }
+    .menu-btn {
+        display: block;
+        z-index: 100;
+    }
+    .menu-btn i {
+        position: absolute;
+        font-size: 7vw;
+        left: 0vw;
+        top: -3vw;
+    }
+}
