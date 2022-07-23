@@ -8,12 +8,12 @@
     visibility: hidden;
 }
 
-.backgraund1 img {
+.backgraund1 Img {
     position: relative;
     width: 100%;
     z-index: 1;
 }
-.container .logo1 a img{
+.container .logo1 a Img{
     position: absolute;
     top: 0.6%;
     z-index: 80;
@@ -48,7 +48,7 @@
     font-size: 1.7vw;
 }
 
-.reffe img {
+.reffe Img {
     position: relative;
     left: 45%;
     width: 10%;
@@ -94,7 +94,7 @@
     margin: 0 4.5vw;
     font-weight: 900;
 }
-.presentacion img {
+.presentacion Img {
     position: absolute;
     z-index: 5;
     top: 6vw;
@@ -123,7 +123,7 @@
     font-size: 4vw;
     z-index: 30;
 }
-.opacitys img {
+.opacitys Img {
     position: absolute;
     top: 7vw;
     z-index: 10;
@@ -133,7 +133,7 @@
     border: solid 0.1vw black;
     border-radius: 6vw;
 }
-.backgraund_principal img {
+.backgraund_principal Img {
     position: absolute;
     top: 7vw;
     z-index: 11;
@@ -142,7 +142,7 @@
     height: 22vw;
     border-radius: 6vw;
 }
-.separacion img {
+.separacion Img {
     position: absolute;
     top: 24vw;
     z-index: 11;
@@ -151,7 +151,7 @@
     height: 6vw;
     border: solid 0.1vw black;
 }
-.logo_de_la_serie img {
+.logo_de_la_serie Img {
     position: absolute;
     top: 19vw;
     left: 5vw;
@@ -160,7 +160,7 @@
     border: solid 1vw rgb(255, 255, 255);
     border-radius: 4vw;
 }
-.links_de_la_serie .YTlink img {
+.links_de_la_serie .YTlink Img {
     position: absolute;
     top: 20vw;
     z-index: 11;
@@ -168,7 +168,7 @@
     right: 15vw;
     border-radius: 0.5vw;
 }
-.links_de_la_serie .TWlink img {
+.links_de_la_serie .TWlink Img {
     position: absolute;
     top: 20vw;
     z-index: 11;
@@ -176,7 +176,7 @@
     right: 9vw;
     border-radius: 0.5vw;
 }
-.links_de_la_serie .FBlink img {
+.links_de_la_serie .FBlink Img {
     position: absolute;
     top: 20vw;
     z-index: 11;
@@ -334,7 +334,7 @@
     left: 5vw;
     z-index: 12;
 }
-.Clasi img {
+.Clasi Img {
     position: absolute;
     top: 51.1vw;
     left: 5vw;
@@ -398,7 +398,7 @@
 .Critic h2 {
     font-size: 3.1vw;
 }
-.Critic img {
+.Critic Img {
     position: absolute;
     width: 5vw;
     height: 5vw;
@@ -440,7 +440,7 @@
     z-index: 12;
     height: 170%;
 }
-.grafic-backgraund img {
+.grafic-backgraund Img {
     width: 95%;
     height: 60vw;
     position: absolute;
